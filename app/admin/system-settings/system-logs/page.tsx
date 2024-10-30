@@ -1,5 +1,5 @@
-// system-settings/system-logs/page.tsx page component
-const page.tsx = () => {
-  return <div>page.tsx page</div>;
+// system-settings/system-logs/page page component
+const page = () => {
+  return <div>page page</div>;
 };
-export default page.tsx;
+export default page;

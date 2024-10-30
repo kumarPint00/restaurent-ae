@@ -1,5 +1,5 @@
-// customer-management/manage-mailing-list/page.tsx page component
-const page.tsx = () => {
-  return <div>page.tsx page</div>;
+// customer-management/manage-mailing-list/page page component
+const page = () => {
+  return <div>page page</div>;
 };
-export default page.tsx;
+export default page;

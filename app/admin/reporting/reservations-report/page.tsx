@@ -1,5 +1,5 @@
-// reporting/reservations-report/page.tsx page component
-const page.tsx = () => {
-  return <div>page.tsx page</div>;
+// reporting/reservations-report/page page component
+const page = () => {
+  return <div>page page</div>;
 };
-export default page.tsx;
+export default page;

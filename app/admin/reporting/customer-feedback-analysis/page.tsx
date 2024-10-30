@@ -1,5 +1,5 @@
-// reporting/customer-feedback-analysis/page.tsx page component
-const page.tsx = () => {
-  return <div>page.tsx page</div>;
+// reporting/customer-feedback-analysis/page page component
+const page = () => {
+  return <div>page page</div>;
 };
-export default page.tsx;
+export default page;

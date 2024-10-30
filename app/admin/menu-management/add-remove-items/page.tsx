@@ -1,5 +1,5 @@
-// menu-management/add-remove-items/page.tsx page component
-const page.tsx = () => {
-  return <div>page.tsx page</div>;
+// menu-management/add-remove-items/page page component
+const page = () => {
+  return <div>page page</div>;
 };
-export default page.tsx;
+export default page;

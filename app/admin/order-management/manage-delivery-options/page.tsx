@@ -1,5 +1,5 @@
-// order-management/manage-delivery-options/page.tsx page component
-const page.tsx = () => {
-  return <div>page.tsx page</div>;
+// order-management/manage-delivery-options/page page component
+const page = () => {
+  return <div>page page</div>;
 };
-export default page.tsx;
+export default page;
