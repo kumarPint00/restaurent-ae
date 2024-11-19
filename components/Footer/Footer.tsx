@@ -72,11 +72,11 @@ const Footer: React.FC = () => {
                 {language === "en" ? "Menu" : "قائمة الطعام"}
               </Typography>
             </Link>
-            <Link href="/reservations" passHref>
+            {/* <Link href="/reservations" passHref>
               <Typography variant="body2" sx={{ color: '#FFF', cursor: 'pointer' }}>
                 {language === "en" ? "Reservations" : "الحجوزات"}
               </Typography>
-            </Link>
+            </Link> */}
             <Link href="/contact" passHref>
               <Typography variant="body2" sx={{ color: '#FFF', cursor: 'pointer' }}>
                 {language === "en" ? "Contact" : "تواصل"}
