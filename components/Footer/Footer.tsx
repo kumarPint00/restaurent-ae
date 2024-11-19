@@ -6,6 +6,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
+import Image from 'next/image';
+import logo from '../../public/images/khamirCafeLogo.webp';
 
 const Footer: React.FC = () => {
   const { language } = useLanguage();
@@ -22,6 +24,12 @@ const Footer: React.FC = () => {
       <Grid container spacing={4} justifyContent="center">
         {/* Business Info */}
         <Grid item xs={12} sm={6} md={3}>
+          <Image
+          src={logo}
+          width={150}
+          height={150}
+          alt='logo'
+          />
           <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#FFA500' }}>
             {language === "en" ? "Khamir Ydoh Cafeteria" : "كافتيريا خمير يده"}
           </Typography>
